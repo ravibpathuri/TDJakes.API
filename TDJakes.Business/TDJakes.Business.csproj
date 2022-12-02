@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.AspNetCore.Identity.Cognito" Version="3.0.0" />
+    <PackageReference Include="Amazon.Extensions.CognitoAuthentication" Version="2.2.3" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TDJakes.DataAccess\TDJakes.DataAccess.csproj" />
+    <ProjectReference Include="..\TDJakes.Models\TDJakes.Models.csproj" />
+  </ItemGroup>
+
+</Project>
